@@ -19,13 +19,13 @@ function code_1() {
   input = parseInt(input);
 
   //define and invoke the helper function
-  return (function factorial(input) {
+  return (function funk(input) {
 
     if(input === 0) return 1;
 
     if(input >= 0) {
 
-      return input * factorial(input - 1);
+      return input * funk(input - 1);
     }
 
   })(input);
