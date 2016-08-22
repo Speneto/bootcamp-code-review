@@ -9,7 +9,7 @@
 /**
 * Code 1
 */
-function code_1() {
+function code_1(input) {
 
   if(typeof input !== 'number') throw "Only numerical inputs are allowed";
 
@@ -34,7 +34,7 @@ function code_1() {
 /**
 * Code 2
 */
-function code_2() {
+function code_2(arr) {
 
   if(!arr instanceof Array) throw "Only arrays are permitted as input";
 
@@ -56,7 +56,7 @@ function code_2() {
 /**
 * Code 3
 */
-function code_3() {
+function code_3(boundary) {
 
   if(typeof boundary !== 'number') throw "Only numerical inputs are allowed";
 
